@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
 
     # ── CORS ──────────────────────────────────────────────────────────────
-    CORS_ORIGINS: str = "https://internal-management-and-task-tracki.vercel.app",
+    CORS_ORIGINS: str = "https://internal-management-and-task-tracki.vercel.app"
 
     @property
     def cors_origins_list(self) -> List[str]:
